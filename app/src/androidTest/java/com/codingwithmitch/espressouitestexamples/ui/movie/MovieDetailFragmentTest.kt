@@ -14,6 +14,7 @@ import com.codingwithmitch.espressouitestexamples.data.source.MoviesRemoteDataSo
 import com.codingwithmitch.espressouitestexamples.factory.MovieFragmentFactory
 import io.mockk.every
 import io.mockk.mockk
+import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -22,6 +23,7 @@ import org.junit.runner.RunWith
 class MovieDetailFragmentTest{
 
     @Test
+    @Ignore
     fun test_recreateActivity() {
 
         // SETUP
@@ -67,6 +69,7 @@ class MovieDetailFragmentTest{
     }
 
     @Test
+    @Ignore
     fun test_isMovieDataVisible() {
 
         // SETUP
